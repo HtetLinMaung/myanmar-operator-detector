@@ -31,7 +31,7 @@ let operatorName = detectMyanmarMobileOperator("959404888722");
 console.log(operatorName); // Outputs: "MPT"
 ```
 
-The function will return the name of the mobile operator ("MPT", "Ooredoo", "Telenor", "MEC Tel", "My Tel") or "Unknown operator" if the number does not match any known patterns.
+The function will return the name of the mobile operator ("MPT", "Ooredoo", "Telenor", "MECTel", "MyTel") or "Unknown operator" if the number does not match any known patterns.
 
 ## Contributing
 

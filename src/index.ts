@@ -111,14 +111,14 @@ export function detectMyanmarMobileOperator(mobileNo: string): string {
   // Check for MEC Tel rules
   for (const rule of mecTelRules) {
     if (mobileNo.startsWith(rule.prefix) && mobileNo.length === rule.length) {
-      return "MEC Tel";
+      return "MECTel";
     }
   }
 
   // Check for My Tel rules
   for (const rule of myTelRules) {
     if (mobileNo.startsWith(rule.prefix) && mobileNo.length === rule.length) {
-      return "My Tel";
+      return "MyTel";
     }
   }
 
