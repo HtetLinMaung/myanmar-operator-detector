@@ -1,6 +1,6 @@
 {
   "name": "myanmar-operator-detector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to detect the mobile operator from a given mobile number in Myanmar",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
