@@ -1,4 +1,4 @@
-interface Rule {
+export interface Rule {
   prefix: string;
   length: number;
 }

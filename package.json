@@ -1,22 +1,29 @@
 {
   "name": "myanmar-operator-detector",
   "version": "1.0.0",
-  "description": "",
+  "description": "A package to detect the mobile operator from a given mobile number in Myanmar",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HtetLinMaung/nearby-locations.git"
+    "url": "https://github.com/HtetLinMaung/myanmar-operator-detector.git"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "myanmar",
+    "mobile",
+    "operator",
+    "detector"
+  ],
   "author": "Htet Lin Maung <jsthtet96@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.1.3"
   },
+  "dependencies": {},
   "files": [
     "lib/"
   ],
